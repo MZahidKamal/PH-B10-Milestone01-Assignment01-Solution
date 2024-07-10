@@ -582,3 +582,60 @@ html {
     color: rgb(13, 19, 33);
     cursor: pointer;
 }
+
+/*FOOTER CONTAINER----------------------------------------------------------------------------------------------------*/
+
+.footer-container {
+    /*border: 2px solid red;*/
+    background: rgba(13, 19, 33, 0.03);
+    height: 131px;
+    width: 1857px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*FOOTER LEFT OPEN COMMUNITY LOGO-------------------------------------------------------------------------------------*/
+
+.footer-container .left {
+    /*border: 2px solid red;*/
+    width: 50%;
+    margin: auto auto auto 193px;
+}
+
+.footer-container .left .text h1 {
+    color: rgb(13, 19, 33);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+/*FOOTER RIGHT ICONS--------------------------------------------------------------------------------------------------*/
+
+.footer-container .right {
+    /*border: 2px solid red;*/
+    width: 50%;
+    margin: auto 214px auto auto;
+    display: flex;
+    justify-content: right;
+}
+.footer-container .right .icons {
+    display: flex;
+    gap: 50px;
+    height: 50px;
+}
+.footer-container .right .icons .facebook-icon {
+    height: 50px;
+    cursor: pointer;
+}
+.footer-container .right .icons .git-icon {
+    height: 50px;
+    cursor: pointer;
+}
+.footer-container .right .icons .linkedin-icon {
+    height: 50px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
