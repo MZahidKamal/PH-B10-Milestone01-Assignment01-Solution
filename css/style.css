@@ -1,5 +1,69 @@
-*{
+/*UNIVERSAL STYLE. APPLICABLE for FULL WEBSITE------------------------------------------------------------------------*/
+
+* {
+    /*The font is collected from fonts.google.com and has embedded here, so that the font will be applied to the full website automatically*/
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    /*font-style: normal;*/
+
+    /*Removing the border and margin given default by the browser.*/
+    border: 0;
     margin: 0;
-    padding: 0;
 }
-/*This removes all default margin and padding given by the browser.*/
+
+/*NAVBAR CONTAINER----------------------------------------------------------------------------------------------------*/
+
+.navbar-container {
+    /*border: 2px solid red;*/
+    height: 131px;
+    width: 1857px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*NAVBAR LEFT K.MD.ZAHID LOGO-----------------------------------------------------------------------------------------*/
+
+.navbar-container .nav-left {
+    /*border: 2px solid red;*/
+    width: 50%;
+    margin: auto auto auto 193px;
+}
+
+.navbar-container .nav-left .nav-logo h1 {
+    color: rgb(13, 19, 33);
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+/*NAVBAR RIGHT DOWNLOAD NOW BUTTON------------------------------------------------------------------------------------*/
+
+.navbar-container .nav-right {
+    /*border: 2px solid red;*/
+    width: 50%;
+    margin: auto 214px auto auto;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-container .nav-right .nav-button a {
+    text-decoration: none;
+}
+.navbar-container .nav-right .nav-button span {
+    width: 294px;
+    height: 29px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 17px 24px 17px 24px;
+    opacity: 0.8;
+    cursor: pointer;
+
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: center;
+}
