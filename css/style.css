@@ -367,3 +367,135 @@ html {
     height: 900px;
     border-radius: 16px;
 }
+
+/*MY CURRENT TARGET SECTION-------------------------------------------------------------------------------------------*/
+
+.target-container {
+    /*border: 2px solid red;*/
+    width: 1857px;
+    margin: 0 auto;
+}
+.target-container .target-items {
+    /*border: 2px solid blue;*/
+    width: 85%;
+    margin: 100px auto;
+}
+.target-container .target-items .text-item {
+    justify-content: center;
+    text-align: center;
+    margin: 50px 200px;
+}
+
+/*MY CURRENT TARGET TITLE---------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .text-item h1 {
+    color: rgb(13, 19, 33);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+/*MY CURRENT TARGET SUBTITLE------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .text-item p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+/*MY CURRENT TARGET CARDS---------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .card-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px;
+}
+
+/*MY CURRENT TARGET CARD-01-------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .card-items .card1 {
+    /*border: 1px solid red;*/
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.target-container .target-items .card-items .card1 h3 {
+    margin: 30px auto 30px 0;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 30px;
+    font-weight: 700;
+}
+.target-container .target-items .card-items .card1 p {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.target-container .target-items .card-items .card1 a {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/*MY CURRENT TARGET CARD-02-------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .card-items .card2 {
+    /*border: 1px solid red;*/
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.target-container .target-items .card-items .card2 h3 {
+    margin: 30px auto 30px 0;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 30px;
+    font-weight: 700;
+}
+.target-container .target-items .card-items .card2 p {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.target-container .target-items .card-items .card2 a {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/*MY CURRENT TARGET CARD-03-------------------------------------------------------------------------------------------*/
+
+.target-container .target-items .card-items .card3 {
+    /*border: 1px solid red;*/
+    background: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.target-container .target-items .card-items .card3 h3 {
+    margin: 30px auto 30px 0;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 30px;
+    font-weight: 700;
+}
+.target-container .target-items .card-items .card3 p {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.target-container .target-items .card-items .card3 a {
+    margin: 30px auto 30px 0;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
