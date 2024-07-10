@@ -67,3 +67,70 @@
     letter-spacing: 0;
     text-align: center;
 }
+
+/*HERO CONTAINER------------------------------------------------------------------------------------------------------*/
+
+.hero-container {
+    /*border: 2px solid red;*/
+    height: 800px;
+    width: 1857px;
+    margin: 0 auto;
+    background-image: url("../assets/Hero-bg.png");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*HERO BOY WITH LAPTOP IMAGE------------------------------------------------------------------------------------------*/
+
+.hero-container .hero-image img {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+/*HERO I HOPE TO BECOME a DEVELOPER TITLE-----------------------------------------------------------------------------*/
+
+.hero-container .hero-text {
+    width: 60%;
+    margin: 0 auto 80px auto;
+}
+
+.hero-container .hero-text .title {
+    color: rgb(13, 19, 33);
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 68px;
+    margin-bottom: 30px;
+}
+
+/*HERO SUBTITLE-------------------------------------------------------------------------------------------------------*/
+
+.hero-container .hero-text .subtitle {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+/*HERO CONTACT WITH ME BUTTON-----------------------------------------------------------------------------------------*/
+
+.hero-container .hero-button .button {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    /*margin-bottom: 44px;*/
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    cursor: pointer;
+}
+.hero-container .hero-button a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
